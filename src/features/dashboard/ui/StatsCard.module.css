@@ -1,0 +1,79 @@
+.stats_card {
+  background-color: var(--white);
+  border-radius: 4px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+}
+
+.stats_card_header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.stats_card_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cyan);
+  background-image: url("https://cdn.prod.website-files.com/626be00c396339c5a816353b/676292bb4b912aca8c2973d4_tile.png");
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+}
+
+.stats_card_icon svg {
+  color: var(--text-light);
+}
+
+.stats_card_title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.stats_card_content {
+  display: flex;
+}
+
+.stats_card_value_container {
+  display: flex;
+}
+
+.stats_card_value_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.stats_card_value {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--text);
+  margin-left: 20px;
+}
+
+.padding_icon {
+  width: 48px;
+  height: 48px;
+}
+
+.percentage {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: var(--background-light);
+}
+
+.percentage_positive {
+  color: var(--green);
+}
+
+.percentage_negative {
+  color: var(--red);
+}

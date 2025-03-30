@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-geist-sans);
+}
+
+:root {
+  --background: #f5f1ed;
+  --border: #b7b7b7;
+  --cyan: #09b1ba;
+  --font-geist-sans: "Geist Sans", sans-serif;
+  --text: #202020;
+  --text-grey: #666;
+  --text-light: #fff;
+  --background-light: #f0efe9;
+  --white: #fff;
+  --green: #06b906;
+  --red: #f34d4d;
+  --purple: #c1aaf9;
+  --yellow: #ffc53d;
+  --green-light: #e3efdc;
+  --yellow-light: #fff0bd;
+  --black: #000;
+  --black-light: #404040;
+  --text-color-default: #37352f;
+  --callout-shadow: rgba(0, 0, 0, 0.12) 0px 4px 8px -2px;
+  --input-placeholder: #999999;
+  --outline-bg-hover: #e8e8e8;
+}
+
+p {
+  color: var(--text-color-default);
+}

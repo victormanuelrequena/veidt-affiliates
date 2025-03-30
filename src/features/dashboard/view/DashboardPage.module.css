@@ -1,0 +1,67 @@
+.dashboard_container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 40px;
+}
+
+.dashboard_header {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard_title {
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.dashboard_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats_cards_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  gap: 32px;
+  width: 100%;
+}
+
+.dashboard_charts_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 32px;
+}
+
+.chart_container {
+  width: 50%;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  height: 400px;
+}
+
+.chart_title {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 32px;
+}
+
+.dashboard_charts_container_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dashboard_charts_container_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
