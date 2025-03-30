@@ -79,6 +79,8 @@
   transition: color 0.3s ease;
   border-radius: 4px;
   margin-bottom: 8px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .sidebar_menu_item:hover {
@@ -106,4 +108,11 @@
   position: absolute;
   bottom: 16px;
   width: calc(100% - 16px);
+}
+.active {
+  background-color: var(--outline-bg-hover);
+}
+
+.active p {
+  color: var(--text);
 }
